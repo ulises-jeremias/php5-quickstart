@@ -1,0 +1,24 @@
+{
+  "name": "php5-quickstarter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulises-jeremias/php5-quickstarter.git"
+  },
+  "author": "ulises-jeremias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulises-jeremias/php5-quickstarter/issues"
+  },
+  "homepage": "https://github.com/ulises-jeremias/php5-quickstarter#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "es6": "0.0.7",
+    "jquery": "^3.1.1"
+  }
+}

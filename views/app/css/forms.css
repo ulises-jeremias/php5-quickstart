@@ -1,0 +1,143 @@
+.wrap {
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 0px 3px grey; }
+
+.umd_form_container {
+  width: 100%;
+  color: #f2f2f2;
+  padding: 50px; }
+  .umd_form_container .umd_form {
+    width: 100%;
+    margin: auto; }
+    .umd_form_container .umd_form .umd_input-group {
+      position: relative;
+      margin-bottom: 32px; }
+      .umd_form_container .umd_form .umd_input-group input[type="text"],
+      .umd_form_container .umd_form .umd_input-group input[type="file"],
+      .umd_form_container .umd_form .umd_input-group input[type="email"],
+      .umd_form_container .umd_form .umd_input-group input[type="password"] {
+        font-family: "Roboto";
+        font-size: 16px;
+        color: #303F9F;
+        width: 100%;
+        outline: none;
+        padding: 15px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #BBDEFB; }
+        .umd_form_container .umd_form .umd_input-group input[type="text"]:focus,
+        .umd_form_container .umd_form .umd_input-group input[type="text"]:active,
+        .umd_form_container .umd_form .umd_input-group input[type="email"]:focus,
+        .umd_form_container .umd_form .umd_input-group input[type="email"]:active,
+        .umd_form_container .umd_form .umd_input-group input[type="password"]:focus,
+        .umd_form_container .umd_form .umd_input-group input[type="password"]:active {
+          outline: none;
+          border-bottom: 2px solid #303F9F; }
+        .umd_form_container .umd_form .umd_input-group input[type="text"].umd_error,
+        .umd_form_container .umd_form .umd_input-group input[type="email"].umd_error,
+        .umd_form_container .umd_form .umd_input-group input[type="password"].umd_error {
+          border-bottom: 2px solid #D32F2F; }
+          .umd_form_container .umd_form .umd_input-group input[type="text"].umd_error + label,
+          .umd_form_container .umd_form .umd_input-group input[type="email"].umd_error + label,
+          .umd_form_container .umd_form .umd_input-group input[type="password"].umd_error + label {
+            color: #D32F2F; }
+      .umd_form_container .umd_form .umd_input-group label {
+        color: #303F9F; }
+        .umd_form_container .umd_form .umd_input-group label.umd_label {
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          margin-left: 15px;
+          font-size: 16px;
+          line-height: 16px;
+          position: absolute;
+          top: 16px;
+          left: 0; }
+          .umd_form_container .umd_form .umd_input-group label.umd_label.umd_active {
+            top: -12px;
+            font-size: 12px;
+            line-height: 12px;
+            color: #B6B6B6; }
+      .umd_form_container .umd_form .umd_input-group.umd_checkbox label,
+      .umd_form_container .umd_form .umd_input-group.umd_radio label {
+        display: inline-block;
+        cursor: pointer;
+        color: #303F9F;
+        position: relative;
+        padding: 5px 15px 5px 51px;
+        font-size: 1em;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .umd_form_container .umd_form .umd_input-group.umd_checkbox label:hover,
+        .umd_form_container .umd_form .umd_input-group.umd_radio label:hover {
+          background: #bbdefb; }
+        .umd_form_container .umd_form .umd_input-group.umd_checkbox label:before,
+        .umd_form_container .umd_form .umd_input-group.umd_radio label:before {
+          content: "";
+          display: inline-block;
+          width: 17px;
+          height: 17px;
+          position: absolute;
+          left: 15px;
+          border-radius: 50%;
+          background: none;
+          border: 2px solid #303F9F; }
+      .umd_form_container .umd_form .umd_input-group.umd_error label {
+        color: #D32F2F; }
+        .umd_form_container .umd_form .umd_input-group.umd_error label:hover {
+          background: rgba(211, 47, 47, 0.2); }
+        .umd_form_container .umd_form .umd_input-group.umd_error label:before {
+          border: 2px solid #D32F2F; }
+      .umd_form_container .umd_form .umd_input-group.umd_radio input[type="radio"] {
+        display: none; }
+        .umd_form_container .umd_form .umd_input-group.umd_radio input[type="radio"]:checked + label:before {
+          display: none; }
+        .umd_form_container .umd_form .umd_input-group.umd_radio input[type="radio"]:checked + label {
+          padding: 5px 15px;
+          background: #303F9F;
+          border-radius: 2px;
+          color: #f2f2f2; }
+      .umd_form_container .umd_form .umd_input-group.umd_checkbox label:before {
+        border-radius: 3px; }
+      .umd_form_container .umd_form .umd_input-group.umd_checkbox input[type="checkbox"] {
+        display: none; }
+        .umd_form_container .umd_form .umd_input-group.umd_checkbox input[type="checkbox"]:checked + label:before {
+          display: none; }
+        .umd_form_container .umd_form .umd_input-group.umd_checkbox input[type="checkbox"]:checked + label {
+          background: #303F9F;
+          color: #f2f2f2;
+          padding: 5px 15px; }
+    .umd_form_container .umd_form input[type="submit"] {
+      background: #303F9F;
+      border-radius: 1px;
+      border: 2px solid #f2f2f2;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Roboto";
+      font-size: 16px;
+      padding: 15px;
+      width: 100%;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .umd_form_container .umd_form input[type="submit"]:hover {
+        background: #1976D2; }
+
+
+@media screen and (max-width: 480px){
+
+	.wrap {
+		width: 90%;
+	}
+	.umd_form_container {
+	  padding: 0px;
+	}
+
+}

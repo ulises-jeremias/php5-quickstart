@@ -1,0 +1,122 @@
+/******* Context MENU *******/
+#menu{
+	display: none;
+	width: 165px;
+	padding: 6px;
+	background: #171717;
+	border: 1px solid #3e3e3e;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	position: absolute;
+	z-index: 2000;
+}
+
+#menu ul{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #6d6d6d;
+	background: #fff;
+	border: 1px solid #171717;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+#menu ul li{
+	line-height: 1.5em;
+	padding: 5px 5px 5px 25px;
+	font-size: 11px;
+	border-bottom: 1px solid #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+#menu ul li:hover{
+	background-color: #fff8cc;
+	border-bottom: 1px solid #ffe222;
+	color: #000;
+	cursor: pointer;
+}
+
+#menu ul li a{
+	color: #6d6d6d;
+	display: block;
+}
+
+#menu ul li.disabled, #menu ul li.disabled a{
+	color: #bbbbbb;
+	cursor: default;
+}
+
+#menu ul li.disabled:hover{
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#menu ul li{
+	background-position: 3px 6px;
+	background-repeat: no-repeat;
+}
+
+#menu ul li#menu_anterior{
+	background-image: url(../img/anterior.png);
+}
+
+#menu ul li#menu_recargar{
+	background-image: url(../img/refresh.png);
+}
+
+#menu ul li#menu_web{
+	background-position: 3px 5px;
+	background-image: url(../img/web.png);
+}
+
+#menu ul li#menu_favoritos{
+	background-image: url(../img/fav.png);
+}
+
+/*__________________________leftmenu _____________________________________________________________________________________________________*/
+
+.leftmenu {
+	cursor: pointer;
+	float: left;
+	position: fixed;
+	left: 0;
+	height: 85%;
+	top: 9.2vh;
+	z-index: 2000;
+}
+
+.leftmenu ul{
+	list-style: none;
+	height: 100%;
+}
+
+.lefmenu ul li {
+	border-color: #333 solid;
+}
+
+.leftmenu ul li a {
+	padding: 3.8vh 1.5vw;
+	background: #333;
+	color: #9d9d9d;
+	font-size: 3vh;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.leftmenu ul li span {
+	display: none;
+}
+
+.leftmenu ul li a:hover {
+	color: #fff;
+	background: rgba(110, 42, 141, 0.35); /* Cambiamos el fondo cuando el usuario pase el mouse */
+	padding: 3.8vh 100px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
