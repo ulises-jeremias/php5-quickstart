@@ -1,8 +1,8 @@
 # PHP5-QuickStart
 
-![Licencia MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
-![Hecho en PHP 5](https://img.shields.io/badge/php-5-blue.svg)
-![Versión Estable](https://img.shields.io/badge/stable-1.0.0-blue.svg)
+![MIT License](https://img.shields.io/packagist/l/doctrine/orm.svg)
+![Made in PHP 5](https://img.shields.io/badge/php-5-blue.svg)
+![Estable Version](https://img.shields.io/badge/stable-1.0.0-blue.svg)
 
 ## Introduction
 
@@ -25,7 +25,7 @@ Clone the repository.
 
 Downloading manually.
 
-[Ver Descargas](https://github.com/ulises-jeremias/php5-quickstart/releases)
+[Downloads](https://github.com/ulises-jeremias/php5-quickstart/releases)
 
 ### Settings
 
