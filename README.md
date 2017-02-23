@@ -19,7 +19,6 @@ To place the framework in production requires a VPS, Dedicated or Hosting that f
 Clone the repository.
 ```
   git clone https://github.com/ulises-jeremias/php5-quickstart.git
-
 ```
 
 Downloading manually.
@@ -31,9 +30,7 @@ Downloading manually.
 In case of being in LINUX and obtain problems of writing permissions by the Firewall, put in the console the following:
 
 ```
-
   ~ $ sudo chmod -R 777 /path/where/the/framework/is/located
-
 ```
 
 __./core/config.php__
@@ -84,13 +81,13 @@ define('PHPMAILER_PASS','');
 define('PHPMAILER_PORT','');
 
 ?>
-
 ```
 
 ## First Hello World
 
 Create __./core/controllers/helloController.php__
-```php
+```
+php
 
   class helloController extends Controllers {
 
@@ -100,11 +97,11 @@ Create __./core/controllers/helloController.php__
     }
 
   }
-
 ```
 Create __./html/hello/hello.php__
 
-```php
+```
+php
 
 <!DOCTYPE html>
 <html>
@@ -118,7 +115,6 @@ Create __./html/hello/hello.php__
     <?php $this->render('overall/footer'); ?>
   </body>
 </html>
-
 ```
 
 Access to http://url.com/hello/
