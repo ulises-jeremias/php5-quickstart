@@ -4,7 +4,7 @@
     <div class="container">
         <!-- El logotipo y el icono que despliega el menú se agrupan
            para mostrarlos mejor en los dispositivos móviles -->
-        <a class="navbar-brand waves-effect waves-light" href="<?php echo APP_URL; ?>"><p style="font-size: 20px;"> <?php echo (APP_TITLE); ?> </p></a>
+        <a class="navbar-brand waves-effect waves-light" href="<?php APP_URL; ?>"><p style="font-size: 20px;"> <?php echo (APP_TITLE); ?> </p></a>
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
                 data-target=".navbar-ex1-collapse">
@@ -48,9 +48,10 @@
 </nav>
 
 <?php
+
 if(!$this->sessions->session_in_use()) {
-  include(HTML_DIR . '/public/login.php');
-  include(HTML_DIR . '/public/signup.php');
+  $this->render('public/login');
+  $this->render('public/signup');
 }
-include(HTML_DIR . '/public/search.php');
+
 ?>

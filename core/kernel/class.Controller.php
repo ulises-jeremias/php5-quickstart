@@ -30,7 +30,7 @@ abstract class Controller
     }
     # Restricción para usuarios logeados
     if($LOGED and !isset($_SESSION[SESS_APP_ID])) {
-      Func::redirect('logout');
+      Func::redirect(APP_URL . 'logout/');
     }
     # Restricción de página para ser vista sólamente por usuarios No logeados
     if($UNLOGED and isset($_SESSION[SESS_APP_ID])) {

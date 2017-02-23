@@ -7,8 +7,8 @@
 final class Func
 {
 
-  final public static function redirect($url) {
-    header('location:' .  __ROOT__ . $url);
+  final public static function redirect($url = APP_URL) {
+    header('location: ' . $url);
   }
 
   //------------------------------------------------
