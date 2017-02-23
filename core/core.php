@@ -9,7 +9,7 @@ try {
   if (version_compare(phpversion(), '5.0.0', '<'))
     throw new Exception(true);
 } catch (Exception $e) {
-  die('La versión actual de <b>PHP</b> es <b>' . phpversion() . '</b> y como mínimo se require la versión <b>7.0.0</b>');
+  die('La versión actual de <b>PHP</b> es <b>' . phpversion() . '</b> y como mínimo se require la versión <b>5.0.0</b>');
 }
 
 
