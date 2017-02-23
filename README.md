@@ -4,7 +4,9 @@
 ![Hecho en PHP 5](https://img.shields.io/badge/php-5-blue.svg)
 ![Versión Estable](https://img.shields.io/badge/stable-1.0.0-blue.svg)
 
-This repository holds the PHP5 source code for my own projects. A good starting point for develop my applications.
+## Introduction
+
+Welcome to the PHP5-quickstart-repository, a functional application that you can use as the skeleton for your new applications.
 
 
 ## Requirements
