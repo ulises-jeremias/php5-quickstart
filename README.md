@@ -35,7 +35,8 @@ In case of being in LINUX and obtain problems of writing permissions by the Fire
 
 __./core/config.php__
 
-```
+```php
+
 <?php
 
 session_start();
@@ -86,8 +87,7 @@ define('PHPMAILER_PORT','');
 ## First Hello World
 
 Create __./core/controllers/helloController.php__
-```
-php
+```php
 
   class helloController extends Controllers {
 
@@ -100,8 +100,7 @@ php
 ```
 Create __./html/hello/hello.php__
 
-```
-php
+```php
 
 <!DOCTYPE html>
 <html>
