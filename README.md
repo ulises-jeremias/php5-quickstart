@@ -89,7 +89,7 @@ define('PHPMAILER_PORT','');
 Create __./core/controllers/helloController.php__
 ```php
 
-  class helloController extends Controllers {
+  class helloController extends Controller {
 
     public function __construct() {
       parent::__construct();
