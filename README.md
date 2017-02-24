@@ -1,8 +1,8 @@
 # PHP5-QuickStart
 
 [![MIT License](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://opensource.org/licenses/MIT)
-[![Made in PHP 5](https://img.shields.io/badge/php-5-blue.svg)]
-[![Estable Version](https://img.shields.io/badge/stable-1.0.0-blue.svg)]
+![Made in PHP 5](https://img.shields.io/badge/php-5-blue.svg)
+![Estable Version](https://img.shields.io/badge/stable-1.0.0-blue.svg)
 
 ## Introduction
 
