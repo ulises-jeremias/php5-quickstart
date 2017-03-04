@@ -95,7 +95,7 @@ Create __./core/controllers/helloController.php__
 
     public function __construct() {
       parent::__construct();
-      echo $this->render('hello/hello');
+      $this->render('hello/hello');
     }
 
   }
