@@ -1,10 +1,10 @@
-<section class="engine"><a rel="nofollow" href="#"><?php echo APP_TITLE ?></a></section>
+<section class="engine"><a rel="nofollow" href="#"><?php ?></a></section>
 
 <nav class="navbar navbar-fixed-top" role="navigation">
     <div class="container">
         <!-- El logotipo y el icono que despliega el menú se agrupan
            para mostrarlos mejor en los dispositivos móviles -->
-        <a class="navbar-brand waves-effect waves-light" href="<?php APP_URL; ?>"><p style="font-size: 20px;"> <?php echo (APP_TITLE); ?> </p></a>
+        <a class="navbar-brand waves-effect waves-light" href="<?php APP_URL ?>"><p style="font-size: 20px;"> <?php echo APP_TITLE; ?> </p></a>
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
                 data-target=".navbar-ex1-collapse">
@@ -19,7 +19,6 @@
         otro elemento que se pueda ocultar al minimizar la barra -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a data-toggle="modal" data-target="#Search"><i class="glyphicon glyphicon-search"></i>  Search</a></li>
                 <li class="dropdown">
                     <a class="" role="button" data-toggle="dropdown" href="#">
                         <i style="font-size: 20px;" class="glyphicon glyphicon-menu-hamburger"></i>

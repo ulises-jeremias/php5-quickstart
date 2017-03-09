@@ -58,7 +58,7 @@ define('DB_PROTOCOL',''); #Connection Protocol for Oracle
 /**
  * Defines the directory in which the framework is installed
  * @example "/" If to access the framework we place http://url.com in the URL, or http://localhost
- * @example "/main-webapp/" if to access the framework we place http://url.com/main-webapp, or http: //localhost/main-webapp/
+ * @example "/main-webapp/" if to access the framework we place http://url.com/main-webapp, or http://localhost/main-webapp/
 */
 define('__ROOT__', '');
 define('APP_URL',''); #Url where the framework is installed, the "/" is important at the end
@@ -109,7 +109,7 @@ Create __./html/hello/hello.php__
   <?php $this->render('overall/header'); ?>
   <body>
     <?php $this->render('overall/topnav'); ?>
-    <div class="umd_container">
+    <div class="cmd_container">
     	<h1>Hello World!!!</h1>
     	<hr><br>
     </div>

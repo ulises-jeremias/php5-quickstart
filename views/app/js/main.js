@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', (function() {
           p = document.createElement('p'),
           span = document.createElement('span');
 
-      p.innerHTML = '&copy;' + __tn(document, 'title')[0].innerHTML;
+      p.innerHTML = '&copy; ' + __tn(document, 'title')[0].innerHTML;
       footer.appendChild(p);
-      span.className = 'fa fa-arrow-up umd_gotop';
+      span.className = 'fa fa-arrow-up cmd_gotop';
       body.appendChild(footer);
       body.appendChild(span);
     }
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', (function() {
     };
 
     function scrollTop(){
-      $('.umd_gotop').click(function(){
+      $('.cmd_gotop').click(function(){
           $('body, html').animate({
               scrollTop: '0px'
           }, 300);
@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', (function() {
 
       $(window).scroll(function(){
           if( $(this).scrollTop() > 0 ){
-              $('.umd_gotop').slideDown(300);
+              $('.cmd_gotop').slideDown(300);
           } else {
-              $('.umd_gotop').slideUp(300);
+              $('.cmd_gotop').slideUp(300);
           }
       });
     };

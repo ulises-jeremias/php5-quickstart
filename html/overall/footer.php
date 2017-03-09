@@ -6,9 +6,9 @@
 <script src="views/bootstrap-material-design/js/material.min.js"></script>
 
 <!-- -->
-<script src="views/app/js/general_functions.js"></script>
+<script src="views/app/js/functions.js"></script>
 <script src="views/app/js/main.js"></script>
 <script src="views/app/js/login.js"></script>
 <script src="views/app/js/signup.js"></script>
 <script src="views/app/js/contact.js"></script>
-<script src="views/app/js/umd_form.js"></script>
+<script src="views/app/js/cmd_form.js"></script>

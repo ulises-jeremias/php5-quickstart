@@ -12,8 +12,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="views/app/css/styles.css">
     <link rel="stylesheet" href="views/app/css/query.css">
-    <link rel="stylesheet" href="views/app/css/menu.css">
-    <link rel="stylesheet" href="views/app/css/forms.css">
+    <link rel="stylesheet" href="views/app/css/modal_form.css">
+    <link rel="stylesheet" href="views/app/css/cmd_form.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

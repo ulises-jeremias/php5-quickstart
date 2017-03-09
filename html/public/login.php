@@ -22,10 +22,10 @@
            </div>
            <div class="group">
                <div class="">
-                   <div class="umd_material-switch pull-left">
+                   <div class="cmd_material-switch pull-left">
                        <span> Remenber Me</span>
                    </div>
-                   <div class="umd_material-switch pull-right">
+                   <div class="cmd_material-switch pull-right">
                        <input id="session_login" name="session_login" type="checkbox"/>
                        <label for="session_login" class="label-success"></label>
                    </div>

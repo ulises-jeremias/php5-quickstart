@@ -1,43 +1,15 @@
 @media screen and (max-width: 480px){
 
-	.umd_jumb {
+	.cmd_jumbotron {
 		margin-top: 25px;
 	}
 
-	._vehicle_img_ {
-		float: none;
-		max-width: 100%;
-		margin-bottom: 5px;
-		background-size: contain;
+	.wrap {
+		width: 90%;
 	}
-
-	.texto-L, .texto-R { max-width: 200px;}
-	.texto-L { float: left; text-align:right; }
-	.texto-R { float: right; text-align:left; }
-
-	.leftmenu{
-		top: 18vh;
-		width: 10em;
-	}
-
-	.leftmenu ul li {
-		width: 100%;
-	}
-
-	.leftmenu ul li a {
-		padding: 3.2vh 9.5em;
-		font-size: 5vw;
-	}
-
-	.leftmenu ul li a:hover {
-		color: #fff;
-		background: #6e2a8d;
-		padding: 3.2vh 9.5em;
-		font-size: 5vw;
-	}
-
-	.leftmenu ul li span {
-		display: none;
+	
+	.cmd_form_container {
+	  padding: 0px;
 	}
 
 }
