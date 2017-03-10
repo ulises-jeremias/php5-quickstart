@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="views/app/img/apple-touch-icon.png">
-    <link rel="stylesheet" href="views/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="views/bootstrap-material-design/css/bootstrap.min.css">
     <link rel="stylesheet" href="views/bootstrap-material-design/css/bootstrap-material-design.min.css">
     <link rel="stylesheet" href="views/fontawesome/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
