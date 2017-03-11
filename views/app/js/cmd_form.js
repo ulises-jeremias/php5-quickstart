@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', (function() {
-  // verify if umd_form is defined
-  if (document.umd_form) {
-    var umd_form = document.umd_form,
-        nodeList = umd_form.elements;
+  // verify if cmd_form is defined
+  if (document.cmd_form) {
+    var cmd_form = document.cmd_form,
+        nodeList = cmd_form.elements;
 
     //Functions
 
@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', (function() {
         if (nodeList[i].type == "text" || nodeList[i].type == "email" || nodeList[i].type == "password") {
           if (nodeList[i].value == 0) {
             console.log('El campo ' + nodeList[i].name + ' debe estar lleno');
-            nodeList[i].className += " umd_error";
+            nodeList[i].className += " cmd_error";
             return false;
           } else {
-            nodeList[i].className = nodeList[i].className.replace(" umd_error","");
+            nodeList[i].className = nodeList[i].className.replace(" cmd_error","");
           }
         }
       }
@@ -38,19 +38,19 @@ document.addEventListener('DOMContentLoaded', (function() {
 
     //Focus & Blur Functions
     var focusInput = function() {
-      this.parentElement.children[1].className = "umd_label umd_active";
+      this.parentElement.children[1].className = "cmd_label cmd_active";
       this.parentElement.children[0].className = this.parentElement.children[0].className.replace("error", "");
     };
 
     var blurInput = function() {
       if (this.value.length <= 0) {
-        this.parentElement.children[1].className = "umd_label";
-        this.parentElement.children[0].className += " umd_error";
+        this.parentElement.children[1].className = "cmd_label";
+        this.parentElement.children[0].className += " cmd_error";
       }
     };
 
     //Events
-    umd_form.addEventListener("submit", send);
+    cmd_form.addEventListener("submit", send);
 
     for (var i = 0; i < nodeList.length; i++) {
       if (nodeList[i].type == "text" || nodeList[i].type == "email" || nodeList[i].type == "password"){
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', (function() {
     for (var i = 0; i < nodeList.length; i++) {
       if (nodeList[i].type == "text" || nodeList[i].type == "email" || nodeList[i].type == "password"){
         if (nodeList[i].value.length > 0) {
-          nodeList[i].parentElement.children[1].className = "umd_label umd_active";
+          nodeList[i].parentElement.children[1].className = "cmd_label cmd_active";
           nodeList[i].parentElement.children[0].className = nodeList[i].parentElement.children[0].className.replace("error", "");
         }
       }
