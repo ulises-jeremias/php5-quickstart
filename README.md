@@ -8,7 +8,7 @@
 
 Welcome to the PHP5-quickstart-repository, a functional application that you can use as the skeleton for your new applications.
 
-You can find a more updated version of the framework in the following ![repository](https://github.com/ulises-jeremias/php7-quickstart).
+You can find a more updated version of the framework in the following [repository](https://github.com/ulises-jeremias/php7-quickstart).
 
 
 ## Requirements
